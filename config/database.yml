@@ -17,8 +17,8 @@ development:
   encoding: unicode
   database: pineapple_development
   pool: 5
-  username: pineapple
-  password:
+  localhost: 3000
+  port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: pineapple_test
   pool: 5
-  username: pineapple
-  password:
+localhost: 3000
+  port: 5432
 
 production:
   adapter: postgresql
   encoding: unicode
   database: pineapple_production
   pool: 5
-  username: pineapple
-  password:
+  localhost: 3000
+  port: 5432
